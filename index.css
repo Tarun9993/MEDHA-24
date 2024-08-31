@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding: 0.2%;
+    margin: 0.3%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 2.2rem;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+li{
+    list-style: none;
+    display:inline-block
+}
+li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size:17px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+.nav li:hover a{
+    color: rgb(230, 154, 33);
+}
+.home{
+    color: blue;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets.entrepreneur.com/content/3x2/2000/1645306786-shutterstock-1930856738.jpg");
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(104%) contrast(94%) saturate(91%);
+    filter: blur(0.3px) brightness(120%) contrast(100%) saturate(100%) hue-rotate(10deg);
+    height: 675px;
+}
+.mid{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.35rem;
+    font-family: Gambetta, serif;
+    text-align: center;
+    padding-top: 5%;
+}
+.presents{
+    color: white;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: Gambetta, serif;
+    font-style: italic;
+    letter-spacing: .5rem;
+    text-align: center;
+    margin-top: 1%;
+}
+.medha{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    font-family: Gambetta, serif;
+    margin: 1.5rem 0;
+}
+.sub{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 100;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+.date{
+    color: white;
+    font-size: 1rem;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+   letter-spacing: .1rem;
+   text-align: center;
+   margin-top: 2%;
+}
+.date h3{
+    font-weight: 100;
+}
+.loc{
+    margin-left: 2%;
+    /* font-weight: 1/ */
+}
+.corner{
+    width: 200px;
+    margin-left: 85%;
+}
+.banner2{
+  margin-top: 3%;
+   background-image: url("https://admissions.ggu.edu.in/wp-content/uploads/2024/04/PLACEMENT-STATISTICS-BG.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 100%;
+   height: 280px;
+   padding: 1%;
+   display: flex;
+}
+.About{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 6px;
+    height: 15%;
+    width: 89%;
+    background-color: crimson;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: .1rem;
+}
+.content{
+    margin-top: 1%;
+    padding: 1px;  
+    color: white;
+    font-weight: 400;
+    width: 89%;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+    font-size: 1.rem;
+    word-spacing: .6rem;
+    line-height: 1.7;
+}
+.moksha{
+  height: 250px;
+  padding: 1%;
+  margin-right: 7%;
+}
+
