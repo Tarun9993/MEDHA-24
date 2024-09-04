@@ -232,3 +232,38 @@ footer{
     display: flex;
     justify-content: center;
 }
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+}
+.cards{
+    width: 320px;
+    height: 300px;
+    background-color:#406094;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    margin: 1% 4%;
+    transition: transform 0.4s ease;
+}
+.card_img{
+width: 180px;
+height: 180px;
+background-color: #fff;
+border-radius: 50%;
+overflow: hidden;
+border: 3px solid #f02222;
+padding: 1%;
+
+}
+.card_name{
+color: white;
+height: 40px;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
